@@ -1,0 +1,297 @@
+/* ==UserStyle==
+@name        Google Meet Dark
+@version     1.0.0
+@description Tema oscuro de Google Meet
+@namespace   Victj
+@author      Victj
+@license     CC-BY-SA-4.0
+@preprocessor uso
+@advanced color icon-color              "Color de iconos" #ff0
+@advanced color bg-color                "Color de fondo" #242424
+@advanced color bg-sec-color            "Color de fondo Secundario" #202020
+@advanced color txt-color               "Color de texto" #dfdfdf
+@advanced color txt-sec-color           "Color de texto secundario" #c6c6c6
+@advanced color txt-osc-color           "Color de texto oscuro" #a6a6a6
+@advanced color txtfield-color          "Color de campo de texto" #ff0
+
+==/UserStyle== */
+
+@-moz-document domain("meet.google.com") {
+    /* Inserte el código aquí... */
+    .Jyj1Td,
+    .YhIwSc,
+    .J8vCN,
+    .ASy21,
+    .CRFCdf,
+    .L7osyb,
+    .Zmm6We,
+    .oIy2qc,
+    .NJEZld,
+    .l1jYx,
+    .MpY5pe,
+    .UNoX6b,
+    .cS7aqe,
+    .fER1Wd,
+    .IpYpqc,
+    .PNenzf,
+    .mVuLZ,
+    .CIYi0d .jO7h3c,
+    .N1zGnc {
+        color: /*[[txt-color]]*/;
+    }
+    .ibrYW,
+    .cU0hbd .K74C9e {
+        color: /*[[txt-color]]*/ !important;
+    }
+    .c0XF8e.kaAt2:not(.KKjvXb),
+    .c0XF8e.kaAt2:not(.KKjvXb) .VZhFab {
+        color: /*[[txt-color]]*/;
+        padding: 0;
+    }
+    /*Un color de text blanquito diferente*/
+    .EyFgge.vLRPrf .MyoDDb,
+    .inWicd,
+    .XnKlKd .tL9Q4c,
+    .YTbUzc,
+    .Whe8ub .PbnGhe,
+    .VA2JSc,
+    .ZbjTEb,
+    .NVUqMb,
+    .clMRcc,
+    .ZiTobc {
+        color: /*[[txt-sec-color]]*/;
+    }
+    /*Blanquito mas oscurito*/
+    .DX090c,
+    .FN6dNb .oJeWuf,
+    .z80M1.FwR7Pc,
+    .ncFHed .MocG8c.KKjvXb,
+    .MocG8c,
+    .c5VCdf {
+        color: /*[[txt-osc-color]]*/;
+    }
+
+    /*Menu hover*/
+    .z80M1.FwR7Pc,
+    .ncFHed .MocG8c.KKjvXb {
+        background-color: /*[[bg-color]]*/;
+    }
+
+    /*Fondo Oscurito*/
+    .Bx7THd,
+    .mrslJ,
+    .HALYaf,
+    .Qmt7oc,
+    .rG0ybd,
+    .p2ZbV.zKHdkd,
+    .ZHdB2e .kaAt2,
+    .Bs3rEf,
+    .LsDE5,
+    .z38b6 {
+        background-color: /*[[bg-color]]*/;
+    }
+
+    .GN4RFc {
+        background-color: /*[[bg-color]]*/;
+        color: white;
+    }
+    /*Fondo mas oscurito*/
+    .QkY02,
+    .NzPR9b,
+    .HhsXW,
+    .BC4V9b,
+    .NJEZld,
+    .duTsYc,
+    .uMYr,
+    .BO6Sud .ZjAUM,
+    .fSW6Ze,
+    .g3VIld,
+    .N1zGnc,
+    .JAPqpe,
+    .jgvuAb.iWO5td .ncFHed,
+    .NVUqMb,
+    .clMRcc,
+    .qx56Dd .OvyUed,
+    .i63Nre,
+    .l4V7wb {
+        background-color: /*[[bg-sec-color]]*/;
+    }
+    /*Borde oscuro*/
+    .fSW6Ze {
+        border-color: /*[[bg-color]]*/;
+    }
+
+    /*Botones de mute audio y no video*/
+    /*.uJNmj.FTMc0c{ 
+    background-color: #ff0;
+    border-color: #ff0;
+}*/
+    /*Botones de mute audio y no video*/
+    /*.A00RE.FTMc0c .bkbMM{
+    fill: #d93025;
+}*/
+    /*Icono de finalizar llamada*/
+    .grFr5 {
+        color: #d93025;
+    }
+    .grFr5 .NMm5M {
+        fill: #d93025;
+        /*Boton de Finalizar llamada*/
+    }
+    .vzpHY {
+        background-color: #fff;
+        /*Boton de Finalizar llamada*/
+    }
+    /*Varios Iconos*/
+    .NMm5M,
+    .fKz7Od,
+    .google-material-icons {
+        fill: /*[[icon-color]]*/;
+        color: /*[[icon-color]]*/;
+    }
+
+    /*Animacion de textField color*/
+    .XnKlKd .cXrdqd {
+        background-color: /*[[txtfield-color]]*/;
+    }
+}
+@-moz-document domain("meet.google.com") {
+    /* Inserte el código aquí... */
+    .Jyj1Td,
+    .YhIwSc,
+    .J8vCN,
+    .ASy21,
+    .CRFCdf,
+    .L7osyb,
+    .Zmm6We,
+    .oIy2qc,
+    .NJEZld,
+    .l1jYx,
+    .MpY5pe,
+    .UNoX6b,
+    .cS7aqe,
+    .fER1Wd,
+    .IpYpqc,
+    .PNenzf,
+    .mVuLZ,
+    .CIYi0d .jO7h3c,
+    .N1zGnc {
+        color: /*[[txt-color]]*/;
+    }
+    .ibrYW,
+    .cU0hbd .K74C9e {
+        color: /*[[txt-color]]*/
+        !important;
+    }
+    .c0XF8e.kaAt2:not(.KKjvXb),
+    .c0XF8e.kaAt2:not(.KKjvXb) .VZhFab {
+        color: /*[[txt-color]]*/;
+        padding: 0;
+    }
+    /*Un color de text blanquito diferente*/
+    .EyFgge.vLRPrf .MyoDDb,
+    .inWicd,
+    .XnKlKd .tL9Q4c,
+    .YTbUzc,
+    .Whe8ub .PbnGhe,
+    .VA2JSc,
+    .ZbjTEb,
+    .NVUqMb,
+    .clMRcc,
+    .ZiTobc {
+        color: /*[[txt-sec-color]]*/;
+    }
+    /*Blanquito mas oscurito*/
+    .DX090c,
+    .FN6dNb .oJeWuf,
+    .z80M1.FwR7Pc,
+    .ncFHed .MocG8c.KKjvXb,
+    .MocG8c,
+    .c5VCdf {
+        color: /*[[txt-osc-color]]*/;
+    }
+
+    /*Menu hover*/
+    .z80M1.FwR7Pc,
+    .ncFHed .MocG8c.KKjvXb {
+        background-color: /*[[bg-color]]*/;
+    }
+
+    /*Fondo Oscurito*/
+    .Bx7THd,
+    .mrslJ,
+    .HALYaf,
+    .Qmt7oc,
+    .rG0ybd,
+    .p2ZbV.zKHdkd,
+    .ZHdB2e .kaAt2,
+    .Bs3rEf,
+    .LsDE5,
+    .z38b6 {
+        background-color: /*[[bg-color]]*/;
+    }
+
+    .GN4RFc {
+        background-color: /*[[bg-color]]*/;
+        color: white;
+    }
+    /*Fondo mas oscurito*/
+    .QkY02,
+    .NzPR9b,
+    .HhsXW,
+    .BC4V9b,
+    .NJEZld,
+    .duTsYc,
+    .uMYr,
+    .BO6Sud .ZjAUM,
+    .fSW6Ze,
+    .g3VIld,
+    .N1zGnc,
+    .JAPqpe,
+    .jgvuAb.iWO5td .ncFHed,
+    .NVUqMb,
+    .clMRcc,
+    .qx56Dd .OvyUed,
+    .i63Nre,
+    .l4V7wb {
+        background-color: /*[[bg-sec-color]]*/;
+    }
+    /*Borde oscuro*/
+    .fSW6Ze {
+        border-color: /*[[bg-color]]*/;
+    }
+
+    /*Botones de mute audio y no video*/
+    /*.uJNmj.FTMc0c{ 
+    background-color: #ff0;
+    border-color: #ff0;
+}*/
+    /*Botones de mute audio y no video*/
+    /*.A00RE.FTMc0c .bkbMM{
+    fill: #d93025;
+}*/
+    /*Icono de finalizar llamada*/
+    .grFr5 {
+        color: #d93025;
+    }
+    .grFr5 .NMm5M {
+        fill: #d93025;
+        /*Boton de Finalizar llamada*/
+    }
+    .vzpHY {
+        background-color: #fff;
+        /*Boton de Finalizar llamada*/
+    }
+    /*Varios Iconos*/
+    .NMm5M,
+    .fKz7Od,
+    .google-material-icons {
+        fill: /*[[icon-color]]*/;
+        color: /*[[icon-color]]*/;
+    }
+
+    /*Animacion de textField color*/
+    .XnKlKd .cXrdqd {
+        background-color: /*[[txtfield-color]]*/;
+    }
+}
